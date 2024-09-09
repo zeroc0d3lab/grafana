@@ -102,7 +102,7 @@ require (
 	github.com/yudai/gojsondiff v1.0.0 // @grafana/backend-platform
 	go.opentelemetry.io/collector/pdata v1.0.0-rc8 // @grafana/backend-platform
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.46.1 // @grafana/grafana-operator-experience-squad
-	go.opentelemetry.io/otel/exporters/jaeger v1.10.0 // @grafana/backend-platform
+	go.opentelemetry.io/otel/exporters/jaeger v1.17.0 // @grafana/backend-platform
 	go.opentelemetry.io/otel/sdk v1.21.0 // @grafana/backend-platform
 	go.opentelemetry.io/otel/trace v1.21.0 // @grafana/backend-platform
 	golang.org/x/crypto v0.17.0 // @grafana/backend-platform
@@ -121,7 +121,7 @@ require (
 	gopkg.in/mail.v2 v2.3.1 // @grafana/backend-platform
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // @grafana/alerting-squad-backend
-	xorm.io/builder v0.3.6 // @grafana/backend-platform
+	xorm.io/builder v0.3.6 // indirect; @grafana/backend-platform
 	xorm.io/core v0.7.3 // @grafana/backend-platform
 	xorm.io/xorm v0.8.2 // @grafana/alerting-squad-backend
 )
@@ -173,7 +173,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.1-0.20191002090509-6af20e3a5340 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-msgpack v0.5.5 // indirect
-	github.com/hashicorp/go-multierror v1.1.1 // @grafana/alerting-squad
+	github.com/hashicorp/go-multierror v1.1.1 // indirect; @grafana/alerting-squad
 	github.com/hashicorp/go-sockaddr v1.0.2 // indirect
 	github.com/hashicorp/golang-lru v0.6.0 // indirect
 	github.com/hashicorp/yamux v0.1.1 // indirect
